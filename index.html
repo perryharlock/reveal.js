@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Hire Space - Dev Branch Structures and Workflow</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="css/theme/hirespace.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -37,20 +37,24 @@
 	</head>
 
 	<body>
+		<div style="padding-bottom:20px; padding-top: 20px; background-color: #fff; border-bottom: 4px solid #f5f5f5;">
+			<h1 style="width:210px;margin:0 auto;
+		height:30px;background-repeat:no-repeat;background-image:url('data:image/png;base64,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');"><span style="display:none">Hire Space</span></h1>
+		</div>
 
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Branch structures and workflow</h1>
+					<h1>Branch structures <br/>and workflow</h1>
 					<p>A few ideas...</p>
 				</section>
 
 				<section>
 					<h2>Currently...</h2>
 					<p>
-						We create a single branch for all stories in the sprint from trunk.
+						We create a single branch for all stories in a sprint from trunk.
 					</p>
 				</section>
 
@@ -71,7 +75,7 @@
 				<section>
 					<h2>So what's wrong with that?</h2>
 					<ul>
-						<li>We get to the point where 'ALL TEH THINGS' are being tested at once towards the end of the sprint.</li>
+						<li>We get to the point where 'ALL THE THINGS' are being tested at once towards the end of the sprint.</li>
 						<li>This can lead to a last minute rush to make amendments.</li>
 						<li>If one of the stories is incomplete we cannot deploy until it is finished.</li>
 						<li>It is best to code review small chunks of work rather than a whole sprints worth.</li>
@@ -79,15 +83,15 @@
 				</section>
 
 				<section>
-					<h2>Ok, what do you propose Charlie Big Potatoes?</h2>
-					<p>The following proposal is based mainly from how other Agile / Scrum environments I have worked in operate.</p>
-					<p>I've also talked to people in other organisations who work in a similar fashion to the way I am about to describe.</p>
-					<p>IT'S NOT GOSPEL!</p>
+					<h2>OK, so what do you propose Charlie Big Potatoes?</h2>
+					<p>The following proposal is based mainly on Agile / Scrum environments I have worked in.</p>
+					<p>It is a well recognised method of working (<a href="http://scottchacon.com/2011/08/31/github-flow.html">http://scottchacon.com/2011/08/31/github-flow.html</a>)</p>
+					<p>But...IT'S NOT GOSPEL!</p>
 				</section>
 
 				<section>
 					<h2>Use Git for source control</h2>
-					<p>This I supposes is a personal preference however I have found that Git is quicker than TFS for branching, committing, etc... (once you have the command line licked!)</p>
+					<p>This, I suppose, is a personal preference however, I have found Git quick and easy for branching, committing, pushing and pulling etc...(once you have the command line licked!)</p>
 				</section>
 
 				<section>
@@ -98,20 +102,23 @@
 
 				<section>
 					<h2>GitHub</h2>
-					<p>I'd also love to use GitHub. Mainly for code reviews (but I understand there may well be a technical issue here)</p>
-					<p>Creating a Pull Request which shows exactly what has changed for code reviewing is awesome!</p>
+					<h3>I'd also love to use GitHub.</h3>
+					<p>Mainly for code reviews (but I understand there may well be a technical issue here).</p>
+					<p>Creating pull requests which show exactly what has changed for code reviewing is awesome!</p>
 					<p>Code also does not slip under the radar until the PR has been OK'd by a reviewer.</p>
 				</section>
 
 				<section>
 					<h2>Branching..what I would like to do.</h2>
 					<ol>
-						<li>Create a master branch for the sprint.</li>
-						<li>Create a single branch for each story.</li>
+						<li>Create a branch for the sprint.</li>
+						<li>Create a single branch for each story from the sprint branch.</li>
 						<li>As each story is completed it goes to code review.</li>
-						<li>Once code reviewed it can be pushed to the master sprint branch which can in turn be pushed to TEST.</li>
+						<li>Once code reviewed it can be pushed to the sprint branch.</li>
 						<li>The story branch is then deleted.</li>
-						<li>Repeat steps 2 - 5 for each story</li>
+						<li>Repeat steps 2 - 5 for each story.</li>
+						<li>The sprint branch can be deployed to TEST at any point for Q/A and testing.</li>
+						<li>The master / trunk branch is still available for every day urgent bug fixes.</li>
 					</ol>
 				</section>
 
@@ -136,7 +143,7 @@
 					</ul>
 				</section>
 
-				<seection>
+				<section>
 					<h2>Useful resources</h2>
 					<a href="http://scottchacon.com/2011/08/31/github-flow.html">http://scottchacon.com/2011/08/31/github-flow.html</a>
 				</section>
